@@ -1,4 +1,4 @@
-Feature: test
+Feature: Day Hour
 
   Scenario: should Be Before Six But After Zero
     Given Hour 4
