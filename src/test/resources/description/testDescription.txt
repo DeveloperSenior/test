@@ -1,0 +1,5 @@
+1) Podria ser Antes de las 6 y despues de las 0 retornaria "Night" con un valor de hora igual a 4
+2) Podria ser Antes de las 12 y despues de las 6  retornaria "Morning" con un valor de hora igual a 7
+3) Podria ser mas de las 12 y menos de las 18  retornaria "Afternoon" con un valor de hora igual a 13
+4) Podria ser mas de las 18  retornaria "Evening" con un valor de hora igual a 17
+5) Podria no estar en el rango de las 24 horas  retornaria "Invalud hour" con un valor de hora igual a 30
