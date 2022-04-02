@@ -24,3 +24,8 @@ Feature: Day Hour
     Given Hour 30
     When The hour is 30
     Then The Day hour should be "Invalid hour"
+
+  Scenario: Could select checkboxes
+    Given Url "https://the-internet.herokuapp.com/checkboxes"
+    When The component "checkboxes" and position 1
+    Then Execute "checked"
